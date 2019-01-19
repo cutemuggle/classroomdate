@@ -1,0 +1,37 @@
+<image src="../../common/img/classroom.png" class="pic"></image>
+  
+
+<view class="container">
+   <view class="form-group col-9">
+    <text class="text-font1 margin1">软微查询登录</text>
+    </view>
+</view>
+
+<image src="../../common/img/cute3.jpg" class="bg"></image>
+<view class="container">
+   <view class="form-group col-9 margin2">
+   </view>
+  <view class='y-extend'>
+     <view class="form-group col-9">
+      <input id='username' type='text' class="form-control" placeholder='用户名' bindinput='inputUsername'></input>
+    </view>
+
+    <view class="form-group col-9">
+      <input id='password' class="form-control" password="true" placeholder='密码' bindinput='inputPassword'></input>
+    </view>
+
+    <view class='form-group'>
+      <button class='btn-primary col-9' bindtap='login'>查找</button>
+    </view>
+  </view>
+
+
+
+
+    </view>
+
+
+
+
+
+
